@@ -1,0 +1,41 @@
+--Cenário 1--
+ - Persona necessita de um livro didático de de uma determinada matéria,porém não sabe se este livro 
+   esta disponivel na biblioteca de seu colégio, ou se o mesmo existe no repositório do local. Após
+   realizar seu cadastro com seus dados, ela poderá buscar o livro no acervo online da sua institui-
+   ção por gênero e por matéria, e poderá escolher buscar por título da obra para efetuar sua pesqui-
+   sa. Caso o título exista no banco, existirá uma opção que exibirá a quantidade  de exemplares dis-
+   poníveis, cabendo à persona fazer a requisição por meio ddo próprio sistema caso existe disponíveis.
+   
+--Cenário 2--
+  - O acervo de uma biblioteca particular atualmente não conta apenas com livros didáticos, e é conve-
+    niente que existam meios de se buscar outros títulos dentro desse cenário. Para isso existirão abas
+    específicas para busca de títulos por gênero ou por meio da aba de pesquisa embutida à interface,
+    de modo a estabelecer filtros por gênero ou por descrições que contenham itens como nome de autor
+    e sinopse.
+    
+--Cenário 3--
+  - Caso um livro não esteja disponível, mas exista dentro do repositório ele ainda poderá ser requisitado.
+    O controle de requisições é feito por um usuário (ou conjunto de usuários) administradores que,
+    após logarem em suas respectivas contas, possuirão interfaces especificas para controlar as requisições,
+    datando de informações de quem requisitou, quando, qual o título e estado de devolução. Esses admins
+    ainda serão responsáveis por adicionar ou remover exemplares do sistema, bem como notificar os usuários
+    de suas faltas referentes à devoluções.
+
+--Cenário 4--
+  - O usuário poderá editar os dados referentes à sua conta através de um campo dentro da interface principal.
+  Lá ele poderá visualizar seus dados e seu perfil, bem como títulos adicionados ao seu campo de interesses.
+  Caso queira editar dados referentes à email , ele deverá efetuar login novamente, recebendo um email de
+  confirmação. O mesmo se aplica a eventuais perdas de senha ,onde o usuário deverá fornecer seu email para
+  alteração dos dados, e receberá um email requerindo os novos dados de acesso e envio dos mesmos para atuali-
+  zação.
+
+--Cenário 5--
+  - Caso um usuário queira requisitar livro que não existam no acervo, ele poderá acessar um campo de requisição
+    de novo título, onde poderá, por meio de uma breve descrição, enviar pedidos de livros que gostaria que
+    existissem no repositório. Os dados serão então encaminhados para as contas administradoras, que deverão proce-
+    der conforme desejável para atendimento das requisições.
+    
+OBS: AS REQUISIÇÕES SÃO EFETUADAS ONLINE, PORÉM A RETIRADA DEVE SER FEITA PESSOALMENTE, APRESENTANDO DADOS QUE CONFIRMEM 
+     A AUTENTICIDADE DA REQUISIÇÃO COMO CARTEIRA DE ESTUDANTE, OU CARTÃO DE PROFESSOR.
+    
+    
