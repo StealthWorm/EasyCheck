@@ -1,4 +1,4 @@
---Cenário 1--
+--Cenário 1-- "Eu como usuário, gostaria de uma interface para selecionar determinado livro conforme meu gosto e necessidade"
  - Persona necessita de um livro didático de de uma determinada matéria,porém não sabe se este livro 
    esta disponivel na biblioteca de seu colégio, ou se o mesmo existe no repositório do local. Após
    realizar seu cadastro com seus dados, ela poderá buscar o livro no acervo online da sua institui-
@@ -6,14 +6,14 @@
    sa. Caso o título exista no banco, existirá uma opção que exibirá a quantidade  de exemplares dis-
    poníveis, cabendo à persona fazer a requisição por meio ddo próprio sistema caso existe disponíveis.
    
---Cenário 2--
+--Cenário 2--"Eu como usuário gostaria de opções para solicitar diferentes tipos de livros de maneira simples e intuitiva"
   - O acervo de uma biblioteca particular atualmente não conta apenas com livros didáticos, e é conve-
     niente que existam meios de se buscar outros títulos dentro desse cenário. Para isso existirão abas
     específicas para busca de títulos por gênero ou por meio da aba de pesquisa embutida à interface,
     de modo a estabelecer filtros por gênero ou por descrições que contenham itens como nome de autor
     e sinopse.
     
---Cenário 3--
+--Cenário 3--"Eu como administrador gostaria de uma interface de controle organizada e bem estruturada para agilizar as requisições"
   - Caso um livro não esteja disponível, mas exista dentro do repositório ele ainda poderá ser requisitado.
     O controle de requisições é feito por um usuário (ou conjunto de usuários) administradores que,
     após logarem em suas respectivas contas, possuirão interfaces especificas para controlar as requisições,
@@ -21,7 +21,7 @@
     ainda serão responsáveis por adicionar ou remover exemplares do sistema, bem como notificar os usuários
     de suas faltas referentes à devoluções.
 
---Cenário 4--
+--Cenário 4--"Eu como usuário, gostaria de um meio de visualziar meus dados e talvez alterá-los no futuro, bem como verificar minha sessão de gostos"
   - O usuário poderá editar os dados referentes à sua conta através de um campo dentro da interface principal.
   Lá ele poderá visualizar seus dados e seu perfil, bem como títulos adicionados ao seu campo de interesses.
   Caso queira editar dados referentes à email , ele deverá efetuar login novamente, recebendo um email de
@@ -29,7 +29,7 @@
   alteração dos dados, e receberá um email requerindo os novos dados de acesso e envio dos mesmos para atuali-
   zação.
 
---Cenário 5--
+--Cenário 5--"Eu como usuário, gostaria de um meio de indicar livros para os administradores, para que o livro apareça no sistema eventualmente"
   - Caso um usuário queira requisitar livro que não existam no acervo, ele poderá acessar um campo de requisição
     de novo título, onde poderá, por meio de uma breve descrição, enviar pedidos de livros que gostaria que
     existissem no repositório. Os dados serão então encaminhados para as contas administradoras, que deverão proce-
