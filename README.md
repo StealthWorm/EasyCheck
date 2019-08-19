@@ -1,4 +1,4 @@
-# EasyCheck
+# BiblioTech
 
 <<< Integrantes >>>
 
