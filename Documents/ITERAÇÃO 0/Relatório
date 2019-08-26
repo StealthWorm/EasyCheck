@@ -12,13 +12,44 @@ Teste de gerenciamento de dados para o backend.
 Protótipos de interface para discussão.
 Histórias de usuário.
 
-<<<>>>
-<<<>>>
-<<<>>>
+Não Funcionou: 
+Algumas telas não foram sincronizadas e definidas
+Os dados de acesso não foram definidos de forma correta
+Algumas ideias foram alteradas no decorrer das reuniões
+
+<<< atividades planejadas >>>
+- Efetivar as primeiras interfaces
+- definir conexões com o banco na parte de login e cadastro
+- Cadastrar livros para teste
+- Gerar interface de usuário
+
+<<< responsáveis >>>
+Katriel: ajudou na criação do banco e nas transações de informações Mongo/Web
+Thierry: definiu interações backend e frontend , definiu as primeiras interfaces e configurou os programas a serem utilizados
+Natan: criou protótipo e foi responsável pelos primeiros diagramas,além de definiar algumas das interações nas interfaces
+
+<<< atividades realizadas e nao realizadas >>>
+Realizadas:
+-Protótipo
+-Configuração do ambiente
+-Definição de interfaces
+-Definição de Interfaces de banco e Objetos de Classe
+
+Não Realizadas:
+-Comunicação banco/web . Não foi possivel desenvolver toda a comunicação por problemas de acesso e problemas de repositório não definido
+-Interfaces bem estruturadas. As interfaces estão em seu modelo prévio, portanto não possuem boa parte de suas formatações e funcionalidades
+
+<<< próxima iteração >>>
+-Reavaliar interfaces 
+-Efetuar conexões e testes de conexões com o banco
+-Defniar responsividade do frontend
+
+<<< lições>>>
+ A comunicação deve estar presente em cada etapa e em cada fragmento de código modificado, de  modo a proporcinar o melhor entendimento
+ e compartilhamento de informações entre os membros da equipe.
 
 
-atividades planejadas
-responsaveis
-atividades realizadas e nao realizadas
-proxima iteração
-lilções
+
+
+
+
