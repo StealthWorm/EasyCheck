@@ -1,0 +1,43 @@
+<<< Data da Iteração  >>>
+
+Início: 16/09
+Término: 23/09
+
+<<< O que funcionou / O que não funcionou >>>
+Funcionou: 
+Desenvolvimento de telas e funcionalidades;
+Integração com o banco mongo.
+
+Não Funcionou: 
+Dificuldades com documentação(falta);
+Organização e atribuição formal de atividades para cada integrante;
+Criar testes documentados;
+Atraso de datas de entrega
+
+<<< atividades planejadas >>>
+Continuar desenvolvimento de funcionalidades e telas;
+Popular banco para testes;
+Intensificar desenvolvimento de testes.
+
+<<< responsáveis >>>
+Katriel: manutenção e organização do banco de dados.
+Thierry: desenvolvimento de interface padrão, telas e funcionalidades.
+Natan: desenvolvimento de telas e funcionalidades e documentação.
+
+<<< atividades realizadas e nao realizadas >>>
+Realizadas:
+-Desenvolvimento do software
+-integração com Banco de dados
+
+Não Realizadas:
+-Testes documenados
+-Atraso de datas de entrega
+
+<<< próxima iteração >>>
+-Criação de testes;
+-Avanço no desenvolvimento do software;
+-Documentação
+
+<<< lições>>>
+ Sentimos falta de uma programação de datas e atribuições mais bem definidas, falta de documentação no desenvolvimento e melhoramos
+ a comunicação entre as frentes de desnvolvimento.  
