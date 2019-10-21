@@ -1,0 +1,43 @@
+<<< Data da Iteração  >>>
+
+Início: 30/09
+Término: 21/10
+
+<<< O que funcionou / O que não funcionou >>>
+Funcionou: 
+Criação de novas interfaces e gerenciamento de banco;
+Criação de documentação inicial
+
+Não Funcionou: 
+Ainda não estão funcionando algumas conexões;
+Validação de senhas ainda não configuradas;
+
+<<< atividades planejadas >>>
+Continuar a criação e verificaçãod e usabilidade;
+Continuar testes no banco;
+planejar propriedades ryroko.
+
+<<< responsáveis >>>
+Katriel: atualização de definições do banco de dados.
+Thierry: desenvolvimento de interfaces.
+Natan: documentação e suporte ao desenvolvimento.
+
+<<< atividades realizadas e nao realizadas >>>
+Realizadas:
+-Desenvolvimento do software e interfaces
+-Criação de documentação inicial
+-Estudo  das funcionalidades principais
+
+Não Realizadas:
+-Testes isolados de componentes
+-validação efetiva com banco
+
+<<< próxima iteração >>>
+-Criação de mais testes;
+-Avanço no desenvolvimento do software;
+-Documentação avançada
+
+<<< lições>>>
+  Entendemos a necessidade de um dispositivo de comunicação padrão, e estamos aplicando o mesmo às nossas próximas reuniões. 
+  Além disso estamos estudando as possibilidades de hospedagem para o site e algumas outras caracateristicas para documentação e
+  organização.
