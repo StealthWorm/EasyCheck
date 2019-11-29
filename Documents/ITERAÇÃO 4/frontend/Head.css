@@ -1,0 +1,265 @@
+.container{
+   position: relative; 
+   justify-content: center;
+   width: 1610px;
+   height: 800px;
+   position: fixed; top: 0; left: 0;
+   transition-duration: 2s;
+}
+
+.login-container{
+    position: relative; 
+    width:300px;
+    height: 100px;
+    background-color: #00FA9A;
+}
+
+.bkg{ 
+    background-repeat: no-repeat ;
+    width: 1610px;
+    height: 800px;
+   transform: scale(0.9);
+   position: absolute; 
+   justify-content: center;
+    align-items: center;
+    margin-left: -160px;
+    margin-top: -100px;
+    transition: 2s;
+}
+
+
+.modal-footer{
+    align-items: center;
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 100px;
+    display: inline-flex; 
+}
+
+.buttons{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: #bbb;
+    width: 350px;
+    height: auto;
+    margin-left: 300px;
+    margin-top: 165px;
+    padding: 20px;
+    border-radius: 8px;
+    visibility: hidden;
+    transition: 4s; 
+    -webkit-animation: fadein 0.2s;
+    -moz-animation: fadein 0.2s; /* Firefox < 16 */
+    -ms-animation: fadein 0.2s; /* Internet Explorer */
+    -o-animation: fadein 0.2s; /* Opera < 12.1 */
+    animation: fadein 0.2s; 
+}
+.btn{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 8px;
+    background: rgb(172, 172, 172);
+    border: 0px;
+    font-size: 18px;
+    color: white;  
+}
+.btnClose{
+    position: absolute;
+    width: 30px;
+    height: 30px; 
+    border: 0px;
+    background: #bbb;
+    align-content: center;
+    justify-content: center;
+    margin-top:-10px;
+    margin-left:300px;
+    border-radius: 8px;
+    background: transparent;
+}
+
+.btnClose >img{
+    width: 20px;
+    height: 20px; 
+    border: 0px;
+    background: #bbb;
+}
+.btnClose >img:hover{
+    opacity: 0.4;
+    transition: 2s;
+    animation: shadow-pulse-small 1s 1;
+    transform: rotate(180deg);
+}
+
+.btn:hover{
+   background: rgb(122, 122, 122);
+   transition: all 0.3s;
+}
+/*//////////////////////////////////////////////////////////////////*/
+.init {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.init{
+    justify-content: center;
+    align-items: center;
+    margin-left:600px;
+    margin-top:170px;
+}
+.init img{
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 90px; 
+    margin-top: 25px;
+    height: 50px;
+}
+.init{
+     animation: shadow-pulse 2s infinite;
+}
+/*//////////////////////////////////////////////////////////////////*/
+#phant{
+    position: absolute;
+    margin-left:310px; 
+    margin-top: -25px;
+    width: 700px;
+    height: 700px;
+    -webkit-animation:spin 50s linear infinite;
+    -moz-animation:spin 50s linear infinite;
+    animation:spin 50s linear infinite;
+}
+#phant2{
+    position: absolute;
+    margin-left:900px; 
+    margin-top: -350px;
+    width: 600px;
+    height: 600px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation:spinR 50s linear infinite;
+    -moz-animation:spinR 50s linear infinite;
+    animation:spinR 50s linear infinite;
+}
+#phant3{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: -350px;
+    width: 700px;
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation:spinR 50s linear infinite;
+    -moz-animation:spinR 50s linear infinite;
+    animation:spinR 50s linear infinite;
+}
+#phant4{
+    position: absolute;
+    margin-left:970px; 
+    margin-top: 300px;
+    width: 500px;
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation:spinR 50s linear infinite;
+    -moz-animation:spinR 50s linear infinite;
+    animation:spinR 50s linear infinite;
+   
+}
+#phant5{
+    position: absolute;
+    margin-left:-150px; 
+    margin-top: -150px;
+    width: 500px;
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation:spinR 50s linear infinite;
+    -moz-animation:spinR 50s linear infinite;
+    animation:spinR 50s linear infinite;
+   
+}
+
+.phantom{
+    position: absolute;
+    opacity: 0.4;
+    -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+    transition: 2s;
+}
+/*//////////////////////////////////////////////////////////////////*/
+
+#loginForm{
+    transition: 5s;
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@-moz-keyframes spinR { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spinR { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spinR { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+@keyframes shadow-pulse{
+     0% {
+          box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+     }
+     100% {
+          box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+     }
+}
+
+@keyframes shadow-pulse-small{
+    0% {
+         box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+         box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
+    }
+}
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
