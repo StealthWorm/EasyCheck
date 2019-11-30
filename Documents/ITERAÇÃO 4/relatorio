@@ -1,0 +1,40 @@
+<<< Data da Iteração  >>>
+
+Início: 11/11
+Término: 29/11
+
+<<< O que funcionou / O que não funcionou >>>
+Funcionou: 
+Requisições do banco e integração com interfaces
+Design de interfaces visualmente otimizado
+
+Não Funcionou: 
+- Nem todos os testes foram realizados antes da implementação definitiva
+
+
+<<< atividades planejadas >>>
+- Consertar mensagens de erros em páginas onde são feitas 
+requisições do banco
+
+<<< responsáveis >>>
+Katriel: Geração de dados e buscas no banco
+Thierry: Finalização das páginas tanto back-end como front-end, hospedagem, requisições, testes, rotas e design final
+Natan: Desenvolvimento back-end e front-end
+
+<<< atividades realizadas e nao realizadas >>>
+Realizadas:
+- Testes adicionando itens ao acervo
+- Desenvolvimento das janelas modais
+
+Não Realizadas:
+- Utilização de forma correta do versionameto
+
+<<< lições >>>
+- Não utilização de sistemas de versionamento torna o processo de desenvolvimento de software bastante custoso
+- Delimitação de tarefas entre o grupo deve ser seguido
+
+
+
+
+
+
